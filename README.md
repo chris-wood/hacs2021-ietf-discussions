@@ -1,6 +1,15 @@
 # HACS 2021 IETF Discussion Topics
 
-## CFRG protocols
+## General
+
+- How can or should the CFRG and dependent working groups in the IETF (TLS, Privacy Pass, QUIC, MASQUE) change process for better alignment and transparency with researchers?
+- Do you think providing APIs in standards is important and why? If so, what Syntax/DSL/Language could be used in informal specifications such as an IETF standard?
+- What are the benefits/issues with having APIs hiding random number generation internally? What about masking? (those ones might have a clearer answer).
+- How can protocols or standards be developed to maximize reuse of existing analysis efforts? (Reuse the TLS key schedule everywhere? Build on a common HPKE interface for public key encryption?)
+- How do we account for divergence between formal analysis efforts and technical specifications? (e.g. TLS 1.3 and OPTLS)
+- Emerging primitives and protocols that need assurance: CPace/OPAQUE, VOPRF, (RSA) blind signatures, TLS Encrypted ClientHello, MASQUE (QUIC/HTTP proxying), QUIC, Oblivious DoH/HTTP, Privacy Pass
+
+## CFRG specific protocols
 
 Emerging specifications include: HPKE, CPace/OPAQUE, VOPRF, RSA Blind Signatures, hashing to elliptic curves, ristretto255/decaf448
 
@@ -31,9 +40,7 @@ think CFRG is garbage because of the way it handles new primitives.
 -- It would be more helpful to find out how people think CFRG should change its process
 and what would be useful for academia to be more involved.
 
-
-
-## IETF protocols
+## IETF specific protocols
 
 Ongoing standardization efforts include: TLS Encrypted ClientHello, MASQUE (QUIC/HTTP proxying), MLS, QUIC Version Negotiation, Oblivious DoH/HTTP, Privacy Pass
 

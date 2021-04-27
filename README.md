@@ -7,7 +7,7 @@
 - What are the benefits/issues with having APIs hiding random number generation internally? What about masking? (those ones might have a clearer answer).
 - How can protocols or standards be developed to maximize reuse of existing analysis efforts? (Reuse the TLS key schedule everywhere? Build on a common HPKE interface for public key encryption?)
 - How do we account for divergence between formal analysis efforts and technical specifications? (e.g. TLS 1.3 and OPTLS)
-- Emerging primitives and protocols that need assurance: CPace/OPAQUE, VOPRF, (RSA) blind signatures, TLS Encrypted ClientHello, MASQUE (QUIC/HTTP proxying), QUIC, Oblivious DoH/HTTP, Privacy Pass
+- Emerging primitives and protocols that need assurance: CPace/OPAQUE, VOPRF, (RSA) blind signatures, TLS Encrypted ClientHello, MASQUE (QUIC/HTTP proxying), QUIC, Oblivious DoH/HTTP, Privacy Pass, Key-committing AEADs
 
 ## CFRG specific protocols
 
